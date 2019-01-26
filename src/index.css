@@ -28,13 +28,13 @@ code {
 }
 
 .reference-field {
-  width: 400px;
+  width: 800px;
   transform: translate(-50%, 0);
   margin-left: 50%;
 }
 
 .secondaryLabel {
-  opacity: .5;
+  /* opacity: .5; */
   font-size: .65em;
   text-align: right;
   margin-left: .5rem;
@@ -46,3 +46,8 @@ code {
   align-items: flex-start;
 }
 
+table {
+  margin: 5px 0;
+  table-layout: fixed;
+  width: 100%; /* must have this set */
+}
